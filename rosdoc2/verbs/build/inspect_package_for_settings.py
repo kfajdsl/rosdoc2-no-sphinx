@@ -81,12 +81,12 @@ builders:
         name: '{package_name} Public C/C++ API',
         output_dir: 'generated/doxygen'
     }}
-    - sphinx: {{
-        name: '{package_name}',
-        ## This path is relative to output staging.
-        doxygen_xml_directory: 'generated/doxygen/xml',
-        output_dir: ''
-    }}
+    #- sphinx: {{
+    #    name: '{package_name}',
+    #    ## This path is relative to output staging.
+    #    doxygen_xml_directory: 'generated/doxygen/xml',
+    #    output_dir: ''
+    #}}
 """
 
 
